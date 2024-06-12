@@ -1,8 +1,8 @@
+import Nav from "./components/Nav";
 const App = ()=>{
   return (
     <main className="relative">
-      {/* <Nav></Nav> */}
-      Nav
+      <Nav></Nav>
       <section className="xl:padding-l wide:padding-r padding-b">
         {/* <Hero></Hero> */}Hero
       </section>
